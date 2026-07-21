@@ -1,0 +1,303 @@
+.menu-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    z-index: 49;
+}
+
+.menu-overlay.active {
+    display: block;
+}
+
+.sidebar-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+    background: linear-gradient(180deg, #0f0f1a 0%, #1a1a2a 100%);
+    transform: translateX(-100%);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 50;
+    overflow-y: auto;
+    border-right: 1px solid rgba(200, 16, 46, 0.3);
+    box-shadow: 4px 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar-menu.open {
+    transform: translateX(0);
+}
+
+@media (min-width: 1024px) {
+    .sidebar-menu {
+        position: sticky !important;
+        top: 0 !important;
+        height: 100vh !important;
+        overflow-y: auto !important;
+        flex-shrink: 0 !important;
+        z-index: 10 !important;
+        border-right: 1px solid rgba(200, 16, 46, 0.3) !important;
+        box-shadow: none !important;
+        transform: translateX(0) !important;
+        width: 280px !important;
+    }
+    
+    .sidebar-menu.desktop-hidden {
+        transform: translateX(-100%) !important;
+        position: fixed !important;
+        z-index: 50 !important;
+        box-shadow: 4px 0 30px rgba(0, 0, 0, 0.5) !important;
+        width: 300px !important;
+    }
+    
+    .sidebar-menu.desktop-hidden.open {
+        transform: translateX(0) !important;
+    }
+    
+    .hamburger-btn {
+        display: flex !important;
+    }
+}
+
+@media (max-width: 1023px) {
+    .sidebar-menu {
+        width: 85% !important;
+        max-width: 320px !important;
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        height: 100vh !important;
+        transform: translateX(-100%);
+        transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        z-index: 50;
+        overflow-y: auto;
+        border-right: 1px solid rgba(200, 16, 46, 0.3);
+        box-shadow: 4px 0 30px rgba(0, 0, 0, 0.5);
+    }
+    
+    .sidebar-menu.open {
+        transform: translateX(0) !important;
+    }
+    
+    .sidebar-menu.desktop-hidden {
+        transform: translateX(-100%) !important;
+    }
+    
+    .sidebar-menu.desktop-hidden.open {
+        transform: translateX(0) !important;
+    }
+    
+    .hamburger-btn {
+        display: flex !important;
+    }
+}
+
+.sidebar-menu::-webkit-scrollbar {
+    width: 4px;
+}
+
+.sidebar-menu::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.sidebar-menu::-webkit-scrollbar-thumb {
+    background: #C8102E;
+    border-radius: 10px;
+}
+
+.sidebar-menu nav a {
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.sidebar-menu nav a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: #F6B229;
+    transition: width 0.3s ease;
+}
+
+.sidebar-menu nav a:hover::after {
+    width: 100%;
+}
+
+@media (max-width: 1023px) {
+    .sidebar-menu nav a {
+        animation: slideIn 0.3s ease forwards;
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    
+    .sidebar-menu.open nav a {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+    .sidebar-menu nav a:nth-child(1) { transition-delay: 0.05s; }
+    .sidebar-menu nav a:nth-child(2) { transition-delay: 0.10s; }
+    .sidebar-menu nav a:nth-child(3) { transition-delay: 0.15s; }
+    .sidebar-menu nav a:nth-child(4) { transition-delay: 0.20s; }
+    .sidebar-menu nav a:nth-child(5) { transition-delay: 0.25s; }
+    .sidebar-menu nav a:nth-child(6) { transition-delay: 0.30s; }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.hamburger-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 51;
+}
+
+.hamburger-btn span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: white;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+    transform-origin: center;
+}
+
+.hamburger-btn.active span:nth-child(1) {
+    transform: rotate(45deg) translate(7px, 7px);
+}
+
+.hamburger-btn.active span:nth-child(2) {
+    opacity: 0;
+    transform: scaleX(0);
+}
+
+.hamburger-btn.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+}
+
+.fondo-proximo-partido {
+    background: linear-gradient(135deg, rgba(200, 16, 46, 0.7), rgba(0, 0, 0, 0.75)),
+        url('../img/ANFIELD.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contenido-proximo-partido {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.card-hover {
+    transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+    border-color: rgba(200, 16, 46, 0.4);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px rgba(200, 16, 46, 0.1);
+}
+
+.live-badge-mobile {
+    display: none;
+}
+
+@media (max-width: 640px) {
+    .live-badge-desktop {
+        display: none;
+    }
+    .live-badge-mobile {
+        display: inline-block;
+    }
+}
+
+.main-content {
+    flex: 1;
+    min-height: 100vh;
+    width: 100%;
+    transition: width 0.3s ease;
+}
+
+@media (min-width: 1024px) {
+    .main-content {
+        width: calc(100% - 280px);
+        max-width: calc(100% - 280px);
+    }
+    
+    .main-content.full-width {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}
+
+@keyframes pulse-life {
+    0%, 100% {
+        box-shadow: 0 0 25px rgba(200, 16, 46, 0.4);
+    }
+    50% {
+        box-shadow: 0 0 70px rgba(200, 16, 46, 0.7);
+    }
+}
+
+.lema-sidebar {
+    font-family: 'Helvetica', sans-serif;
+}
+
+.btn-login {
+    transition: all 0.3s ease;
+}
+
+.btn-login:hover {
+    transform: scale(1.05);
+}
+
+.boton-modo {
+    transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0a0a0f;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #C8102E;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a00d25;
+}
+
+body.sidebar-open {
+    overflow: hidden;
+}
+
+@media (min-width: 1024px) {
+    body.sidebar-open {
+        overflow: auto !important;
+    }
+}

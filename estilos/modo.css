@@ -1,0 +1,724 @@
+body.modo-claro {
+    background: #f0e6db !important;
+    color: #2d1a14 !important;
+}
+
+body.modo-claro .tarjeta-partido {
+    background: #faf3ed !important;
+    border: 2px solid rgba(200, 16, 46, 0.12) !important;
+    box-shadow: 0 4px 30px rgba(200, 16, 46, 0.06) !important;
+}
+
+body.modo-claro .tarjeta-partido:hover {
+    border-color: #c8102e !important;
+    box-shadow: 0 10px 60px rgba(200, 16, 46, 0.18) !important;
+    background: #ffffff !important;
+}
+
+body.modo-claro .tarjeta-partido .text-\[\#F6B229\] {
+    color: #c8102e !important;
+}
+
+body.modo-claro .tarjeta-partido .bg-\[\#1a1a24\] {
+    background: #f0e6db !important;
+    color: #2d1a14 !important;
+    border: 1px solid rgba(200, 16, 46, 0.12) !important;
+}
+
+body.modo-claro .tarjeta-partido .text-white {
+    color: #2d1a14 !important;
+}
+
+body.modo-claro .tarjeta-partido .text-\[\#C8102E\] {
+    color: #c8102e !important;
+}
+
+body.modo-claro .tarjeta-partido .bg-\[rgba\(200\,16\,46\,0\.15\)\] {
+    background: rgba(200, 16, 46, 0.12) !important;
+    border: 2px solid #c8102e !important;
+}
+
+body.modo-claro .tarjeta-partido .text-\[\#8888aa\] {
+    color: #c8102e !important;
+}
+
+body.modo-claro .tarjeta_partido {
+    background: #faf3ed !important;
+    border: 2px solid rgba(200, 16, 46, 0.12) !important;
+    box-shadow: 0 4px 30px rgba(200, 16, 46, 0.06) !important;
+}
+
+body.modo-claro .tarjeta_partido:hover {
+    border-color: #c8102e !important;
+    box-shadow: 0 10px 60px rgba(200, 16, 46, 0.18) !important;
+    background: #ffffff !important;
+}
+
+body.modo-claro .fecha_tarjeta {
+    color: #c8102e !important;
+}
+
+body.modo-claro .fecha_tarjeta span {
+    background: #f0e6db !important;
+    color: #2d1a14 !important;
+    border: 1px solid rgba(200, 16, 46, 0.12) !important;
+}
+
+body.modo-claro .equipo_tarjeta {
+    color: #2d1a14 !important;
+}
+
+body.modo-claro .vs_tarjeta {
+    color: #c8102e !important;
+    background: rgba(200, 16, 46, 0.12) !important;
+    border: 2px solid #c8102e !important;
+}
+
+body.modo-claro .ubicacion_tarjeta {
+    color: #c8102e !important;
+}
+
+body.modo-claro .estado_partido {
+    background: rgba(200, 16, 46, 0.1) !important;
+    color: #c8102e !important;
+    border: 2px solid rgba(200, 16, 46, 0.12) !important;
+}
+
+body.modo-claro .filtro {
+    background: rgba(200, 16, 46, 0.08) !important;
+    color: #8a6a60 !important;
+    border: 2px solid rgba(200, 16, 46, 0.1) !important;
+}
+
+body.modo-claro .filtro:hover {
+    background: rgba(200, 16, 46, 0.15) !important;
+}
+
+body.modo-claro .filtro_activo {
+    background: linear-gradient(135deg, #c8102e, #9e0a22) !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 35px rgba(200, 16, 46, 0.35) !important;
+    border: none !important;
+}
+
+body.modo-claro .sidebar-menu {
+    background: linear-gradient(180deg, #c8102e 0%, #9e0a22 100%) !important;
+    border-right: none !important;
+    box-shadow: 4px 0 50px rgba(200, 16, 46, 0.35) !important;
+}
+
+body.modo-claro .sidebar-menu .border-b {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.15) !important;
+}
+
+body.modo-claro .sidebar-menu .text-\[\#C8102E\] {
+    color: #ffffff !important;
+    text-shadow: 0 2px 25px rgba(0, 0, 0, 0.3) !important;
+}
+
+body.modo-claro .sidebar-menu nav a:not(.activo) {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+body.modo-claro .sidebar-menu nav a:not(.activo):hover {
+    background: rgba(255, 255, 255, 0.2) !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2) !important;
+}
+
+body.modo-claro .sidebar-menu nav a.activo {
+    background: rgba(255, 255, 255, 0.25) !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25) !important;
+    border-left: 3px solid #f6b229 !important;
+}
+
+body.modo-claro .sidebar-menu .border-t {
+    border-top: 2px solid rgba(255, 255, 255, 0.15) !important;
+}
+
+body.modo-claro .sidebar-menu .lema-sidebar {
+    color: #f6b229 !important;
+    text-shadow: 0 2px 30px rgba(246, 178, 41, 0.2) !important;
+}
+
+body.modo-claro .hamburger-btn span {
+    background: #2d1a14 !important;
+}
+
+body.modo-claro header {
+    background: rgba(240, 230, 219, 0.95) !important;
+    backdrop-filter: blur(10px) !important;
+    border-bottom: 3px solid #c8102e !important;
+}
+
+body.modo-claro header .text-\[\#a0a0b0\] {
+    color: #c8102e !important;
+}
+
+body.modo-claro header .bg-\[\#C8102E\] {
+    background: #c8102e !important;
+    color: #ffffff !important;
+    box-shadow: 0 0 50px rgba(200, 16, 46, 0.4) !important;
+    animation: pulse-life 2s infinite !important;
+}
+
+body.modo-claro header .text-\[\#C8102E\] {
+    color: #c8102e !important;
+}
+
+body.modo-claro header .border-\[\#C8102E\] {
+    border-color: #c8102e !important;
+}
+
+body.modo-claro header .bg-\[rgba\(200\,16\,46\,0\.15\)\] {
+    background: rgba(200, 16, 46, 0.1) !important;
+}
+
+body.modo-claro header .bg-\[rgba\(200\,16\,46\,0\.15\)\]:hover {
+    background: #c8102e !important;
+    color: #ffffff !important;
+}
+
+body.modo-claro .fondo-proximo-partido {
+    background: linear-gradient(135deg, rgba(200, 16, 46, 0.8), rgba(200, 16, 46, 0.6)) !important;
+}
+
+body.modo-claro .contenido-proximo-partido {
+    background: rgba(240, 230, 219, 0.12) !important;
+    backdrop-filter: blur(12px) !important;
+    border: 2px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+body.modo-claro .texto-partido {
+    background: linear-gradient(135deg, #c8102e, #9e0a22) !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 50px rgba(200, 16, 46, 0.4) !important;
+}
+
+body.modo-claro .nombre-equipo {
+    color: #ffffff !important;
+    text-shadow: 0 2px 50px rgba(0, 0, 0, 0.5) !important;
+}
+
+body.modo-claro .estadio-partido {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+body.modo-claro .fecha-partido {
+    color: #f6b229 !important;
+    text-shadow: 0 2px 40px rgba(246, 178, 41, 0.4) !important;
+}
+
+body.modo-claro .versus {
+    background: linear-gradient(135deg, #c8102e, #9e0a22) !important;
+    color: #ffffff !important;
+    box-shadow: 0 0 80px rgba(200, 16, 46, 0.4) !important;
+    border: 2px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+body.modo-claro .seccion-titulos {
+    background: linear-gradient(180deg, #faf3ed 0%, #f0e6db 100%) !important;
+    border: 2px solid rgba(200, 16, 46, 0.15) !important;
+}
+
+body.modo-claro .numero-titulo {
+    color: #c8102e !important;
+    text-shadow: 0 2px 30px rgba(200, 16, 46, 0.2) !important;
+}
+
+body.modo-claro .etiqueta-titulo {
+    color: #c8102e !important;
+}
+
+body.modo-claro .boton-modo {
+    background: rgba(200, 16, 46, 0.1) !important;
+    border: 1px solid rgba(200, 16, 46, 0.2) !important;
+    color: #2d1a14 !important;
+}
+
+body.modo-claro .boton-modo:hover {
+    background: rgba(200, 16, 46, 0.15) !important;
+}
+
+body.modo-claro footer {
+    background: #f0e6db !important;
+    border-top: 3px solid #c8102e !important;
+}
+
+body.modo-claro footer .text-white {
+    color: #2d1a14 !important;
+}
+
+body.modo-claro footer .text-\[\#F6B229\] {
+    color: #c8102e !important;
+}
+
+body.modo-claro footer .text-\[\#555570\] {
+    color: #8a6a60 !important;
+}
+
+body.modo-claro ::-webkit-scrollbar-track {
+    background: #f0e6db !important;
+}
+
+body.modo-claro ::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #c8102e, #9e0a22) !important;
+}
+
+body.modo-claro ::-webkit-scrollbar-thumb:hover {
+    background: #9e0a22 !important;
+}
+
+body.modo-claro .btn-login {
+    background: rgba(200, 16, 46, 0.1) !important;
+    border: 2px solid #c8102e !important;
+    color: #c8102e !important;
+}
+
+body.modo-claro .btn-login:hover {
+    background: #c8102e !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 30px rgba(200, 16, 46, 0.35) !important;
+}
+
+body.modo-claro .menu-overlay {
+    background: rgba(0, 0, 0, 0.6) !important;
+    backdrop-filter: blur(4px) !important;
+}
+
+body.modo-claro .tarjeta_jugador {
+    background: #faf3ed !important;
+    border: 2px solid rgba(200, 16, 46, 0.1) !important;
+    box-shadow: 0 4px 30px rgba(200, 16, 46, 0.06) !important;
+}
+
+body.modo-claro .tarjeta_jugador:hover {
+    border-color: #c8102e !important;
+    box-shadow: 0 14px 60px rgba(200, 16, 46, 0.18) !important;
+    background: #ffffff !important;
+}
+
+body.modo-claro .jugador_foto {
+    background: linear-gradient(135deg, #f0e6db, #e6d9cc) !important;
+}
+
+body.modo-claro .jugador_info {
+    background: #faf3ed !important;
+}
+
+body.modo-claro .jugador_nombre {
+    color: #c8102e !important;
+}
+
+body.modo-claro .jugador_dorsal {
+    color: #c8102e !important;
+    text-shadow: 0 2px 30px rgba(200, 16, 46, 0.2) !important;
+}
+
+body.modo-claro .jugador_posicion {
+    color: #c8102e !important;
+}
+
+body.modo-claro .jugador_nacionalidad,
+body.modo-claro .jugador_edad {
+    color: #8a6a60 !important;
+}
+
+body.modo-claro .titulo_posicion {
+    color: #c8102e !important;
+    border-left: 5px solid #c8102e !important;
+}
+
+body.modo-claro .categoria {
+    background: rgba(200, 16, 46, 0.08) !important;
+    color: #8a6a60 !important;
+    border: 2px solid rgba(200, 16, 46, 0.1) !important;
+}
+
+body.modo-claro .categoria:hover {
+    background: rgba(200, 16, 46, 0.15) !important;
+}
+
+body.modo-claro .categoria_activa {
+    background: #c8102e !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 35px rgba(200, 16, 46, 0.35) !important;
+}
+
+body.modo-claro .contenedor-tabla {
+    background: #faf3ed !important;
+    border: 2px solid rgba(200, 16, 46, 0.1) !important;
+    box-shadow: 0 4px 30px rgba(200, 16, 46, 0.06) !important;
+}
+
+body.modo-claro .tabla-posiciones td {
+    color: #2d1a14 !important;
+    border-bottom: 1px solid rgba(200, 16, 46, 0.08) !important;
+}
+
+body.modo-claro .tabla-posiciones .destacado {
+    background: rgba(200, 16, 46, 0.08) !important;
+    border-left: 4px solid #f6b229 !important;
+}
+
+body.modo-claro .tabla-posiciones .destacado td {
+    color: #2d1a14 !important;
+}
+
+body.modo-claro .tabla-posiciones tr:hover {
+    background: rgba(200, 16, 46, 0.05) !important;
+}
+
+body.modo-claro .tabla-posiciones th {
+    background: linear-gradient(135deg, #c8102e, #9e0a22) !important;
+    color: #ffffff !important;
+}
+
+body.modo-claro .puntos {
+    color: #c8102e !important;
+}
+
+body.modo-claro .jornada_actual {
+    background: linear-gradient(135deg, #c8102e, #9e0a22) !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 35px rgba(200, 16, 46, 0.35) !important;
+}
+
+body.modo-claro .leyenda-tabla {
+    background: #faf3ed !important;
+    border: 2px solid rgba(200, 16, 46, 0.1) !important;
+}
+
+body.modo-claro .leyenda-item {
+    color: #8a6a60 !important;
+}
+
+body.modo-claro .mini-escudo {
+    background: rgba(200, 16, 46, 0.05) !important;
+}
+
+body.modo-claro .tarjeta_trofeo {
+    background: linear-gradient(135deg, #faf3ed, #f0e6db) !important;
+    border: 2px solid rgba(200, 16, 46, 0.15) !important;
+}
+
+body.modo-claro .tarjeta_trofeo:hover {
+    border-color: #c8102e !important;
+    box-shadow: 0 12px 50px rgba(200, 16, 46, 0.12) !important;
+    background: #ffffff !important;
+}
+
+body.modo-claro .trofeo_cantidad {
+    color: #c8102e !important;
+    text-shadow: 0 2px 30px rgba(200, 16, 46, 0.15) !important;
+}
+
+body.modo-claro .trofeo_nombre {
+    color: #c8102e !important;
+}
+
+body.modo-claro .trofeo_anios {
+    color: #8a6a60 !important;
+}
+
+body.modo-claro .total_trofeos {
+    background: linear-gradient(135deg, #c8102e, #9e0a22) !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 35px rgba(200, 16, 46, 0.35) !important;
+}
+
+body.modo-claro .frase_historica {
+    background: rgba(200, 16, 46, 0.08) !important;
+    color: #c8102e !important;
+    border: 2px solid rgba(200, 16, 46, 0.1) !important;
+}
+
+body.modo-claro .contenedor_estadio {
+    background: #faf3ed !important;
+    border: 2px solid rgba(200, 16, 46, 0.1) !important;
+    box-shadow: 0 4px 30px rgba(200, 16, 46, 0.06) !important;
+}
+
+body.modo-claro .dato_estadio,
+body.modo-claro .tarjeta_grada,
+body.modo-claro .historia_estadio {
+    background: #f0e6db !important;
+    border: 1px solid rgba(200, 16, 46, 0.08) !important;
+}
+
+body.modo-claro .dato_titulo {
+    color: #c8102e !important;
+}
+
+body.modo-claro .dato_valor {
+    color: #2d1a14 !important;
+}
+
+body.modo-claro .grada_nombre {
+    color: #c8102e !important;
+}
+
+body.modo-claro .grada_capacidad {
+    color: #c8102e !important;
+}
+
+body.modo-claro .grada_descripcion {
+    color: #8a6a60 !important;
+}
+
+body.modo-claro .historia_estadio h3 {
+    color: #c8102e !important;
+}
+
+body.modo-claro .historia_estadio p {
+    color: #2d1a14 !important;
+}
+
+body.modo-claro .himno_estadio {
+    background: rgba(200, 16, 46, 0.06) !important;
+    border: 2px solid rgba(200, 16, 46, 0.1) !important;
+}
+
+body.modo-claro .himno_texto {
+    color: #c8102e !important;
+}
+
+body.modo-claro .himno_autor {
+    color: #c8102e !important;
+}
+
+body.modo-claro .capacidad {
+    background: linear-gradient(135deg, #c8102e, #9e0a22) !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 35px rgba(200, 16, 46, 0.35) !important;
+}
+
+body.modo-claro #mensaje-cuerpo-tecnico {
+    background: #faf3ed !important;
+    border: 2px solid rgba(200, 16, 46, 0.12) !important;
+    box-shadow: 0 4px 30px rgba(200, 16, 46, 0.06) !important;
+}
+
+body.modo-claro #mensaje-cuerpo-tecnico h2 {
+    color: #c8102e !important;
+}
+
+body.modo-claro #mensaje-cuerpo-tecnico p {
+    color: #2d1a14 !important;
+}
+
+body.modo-claro #mensaje-cuerpo-tecnico .subtitulo {
+    color: #8a6a60 !important;
+}
+
+body.modo-claro .cuerpo-tecnico-card {
+    background: #faf3ed !important;
+    border: 2px solid rgba(200, 16, 46, 0.1) !important;
+    box-shadow: 0 4px 30px rgba(200, 16, 46, 0.06) !important;
+}
+
+body.modo-claro .cuerpo-tecnico-card:hover {
+    border-color: #c8102e !important;
+    box-shadow: 0 14px 60px rgba(200, 16, 46, 0.18) !important;
+    background: #ffffff !important;
+}
+
+body.modo-claro .cuerpo-tecnico-card h3 {
+    color: #c8102e !important;
+}
+
+body.modo-claro .cuerpo-tecnico-card p {
+    color: #8a6a60 !important;
+}
+
+body.modo-claro .cuerpo-tecnico-card .btn-perfil {
+    background: linear-gradient(135deg, #c8102e, #9e0a22) !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 35px rgba(200, 16, 46, 0.35) !important;
+}
+
+body.modo-claro .cuerpo-tecnico-card .btn-perfil:hover {
+    box-shadow: 0 6px 50px rgba(200, 16, 46, 0.45) !important;
+    transform: scale(1.05);
+}
+
+body.modo-claro .cuerpo-tecnico-card .img-border {
+    border-color: #c8102e !important;
+}
+
+body.modo-claro .btn_volver {
+    background: #c8102e !important;
+    color: #ffffff !important;
+}
+
+body.modo-claro .btn_volver:hover {
+    background: #9e0a22 !important;
+}
+
+body.modo-claro .perfil_contenedor {
+    background: #faf3ed !important;
+    border: 2px solid rgba(200, 16, 46, 0.15) !important;
+}
+
+body.modo-claro .perfil_izquierda::before {
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.1) 0%,
+            rgba(0, 0, 0, 0.4) 60%,
+            rgba(0, 0, 0, 0.7) 100%) !important;
+}
+
+body.modo-claro .perfil_dorsal_grande {
+    color: #c8102e !important;
+    text-shadow:
+        0 0 20px rgba(200, 16, 46, 0.8),
+        0 0 40px rgba(200, 16, 46, 0.4),
+        0 4px 8px rgba(0, 0, 0, 0.8) !important;
+}
+
+body.modo-claro .perfil_nombre {
+    color: #c8102e !important;
+}
+
+body.modo-claro .perfil_nombre_completo {
+    color: #8a6a60 !important;
+    border-bottom: 1px solid rgba(200, 16, 46, 0.12) !important;
+}
+
+body.modo-claro .perfil_datos_basicos {
+    background: #f0e6db !important;
+}
+
+body.modo-claro .dato_basico_label {
+    color: #c8102e !important;
+}
+
+body.modo-claro .dato_basico_valor {
+    color: #2d1a14 !important;
+}
+
+body.modo-claro .perfil_tabs {
+    border-bottom: 2px solid rgba(200, 16, 46, 0.15) !important;
+}
+
+body.modo-claro .tab_btn {
+    color: #8a6a60 !important;
+}
+
+body.modo-claro .tab_btn:hover {
+    color: #c8102e !important;
+}
+
+body.modo-claro .tab_btn.activo {
+    color: #c8102e !important;
+    border-bottom: 3px solid #c8102e !important;
+}
+
+body.modo-claro .stat_card {
+    background: #f0e6db !important;
+}
+
+body.modo-claro .stat_numero {
+    color: #c8102e !important;
+}
+
+body.modo-claro .stat_label {
+    color: #8a6a60 !important;
+}
+
+body.modo-claro .tabla_temporadas th,
+body.modo-claro .tabla_temporadas td {
+    border-bottom: 1px solid rgba(200, 16, 46, 0.08) !important;
+}
+
+body.modo-claro .tabla_temporadas th {
+    background: #f0e6db !important;
+    color: #c8102e !important;
+}
+
+body.modo-claro .tabla_temporadas td {
+    color: #2d1a14 !important;
+}
+
+body.modo-claro .trofeo_item {
+    background: #f0e6db !important;
+    color: #2d1a14 !important;
+    border: 1px solid rgba(200, 16, 46, 0.08) !important;
+}
+
+body.modo-claro .trofeo_item span:first-child {
+    color: #c8102e !important;
+}
+
+body.modo-claro .equipo_card {
+    background: #f0e6db !important;
+}
+
+body.modo-claro .equipo_logo {
+    background: #e8ddd5 !important;
+}
+
+body.modo-claro .equipo_info h4 {
+    color: #c8102e !important;
+}
+
+body.modo-claro .equipo_info p {
+    color: #8a6a60 !important;
+}
+
+body.modo-claro #biografia p {
+    color: #2d1a14 !important;
+}
+
+body.modo-claro #mensaje-jugador-sin-pagina {
+    background: #faf3ed !important;
+    border: 2px solid rgba(200, 16, 46, 0.12) !important;
+    box-shadow: 0 4px 30px rgba(200, 16, 46, 0.06) !important;
+}
+
+body.modo-claro #mensaje-jugador-sin-pagina h3 {
+    color: #c8102e !important;
+}
+
+body.modo-claro #mensaje-jugador-sin-pagina p {
+    color: #2d1a14 !important;
+}
+
+body.modo-claro #mensaje-jugador-sin-pagina .subtitulo {
+    color: #8a6a60 !important;
+}
+
+body.modo-claro #mensaje-jugador-sin-pagina .btn-cerrar {
+    background: linear-gradient(135deg, #c8102e, #9e0a22) !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 35px rgba(200, 16, 46, 0.35) !important;
+}
+
+body.modo-claro #mensaje-jugador-sin-pagina .btn-cerrar:hover {
+    box-shadow: 0 6px 50px rgba(200, 16, 46, 0.45) !important;
+}
+
+body.modo-claro .dato_estadio:hover {
+    background: #ffffff !important;
+    border-color: #c8102e !important;
+    box-shadow: 0 8px 30px rgba(200, 16, 46, 0.12) !important;
+}
+
+body.modo-claro .tarjeta_grada:hover {
+    background: #ffffff !important;
+    border-left-color: #c8102e !important;
+    box-shadow: 0 8px 30px rgba(200, 16, 46, 0.12) !important;
+}
+
+@keyframes pulse-life {
+    0%, 100% {
+        box-shadow: 0 0 25px rgba(200, 16, 46, 0.4);
+    }
+    50% {
+        box-shadow: 0 0 70px rgba(200, 16, 46, 0.7);
+    }
+}
+
+body.modo-claro section.mx-4.sm\:mx-8.my-8 h1 {
+    color: #2d1a14 !important;
+}
